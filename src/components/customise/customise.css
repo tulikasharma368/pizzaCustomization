@@ -1,0 +1,145 @@
+.customise {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+}
+
+.build {
+  margin-left: 80px;
+}
+
+.pizzabase {
+  position: absolute;
+  height: 70vh;
+  left: 10vw;
+}
+
+.cheeseimg {
+  position: relative;
+  z-index: 2;
+  height: 70vh;
+  left: 10vw;
+  animation: cheese 2s;
+}
+
+@keyframes cheese {
+  0% {
+    top: -400px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.tomatoimg {
+  position: absolute;
+  z-index: 3;
+  height: 70vh;
+  left: 10vw;
+  animation: tomato 2s;
+}
+
+@keyframes tomato {
+  0% {
+    top: -300px;
+  }
+  100% {
+    top: 160px;
+  }
+}
+
+.oliveimg {
+  position: absolute;
+  z-index: 3;
+  height: 70vh;
+  left: 10vw;
+  animation: olive 2s;
+}
+
+@keyframes olive {
+  0% {
+    top: -300px;
+  }
+  100% {
+    top: 159px;
+  }
+}
+
+.mushimg {
+  position: absolute;
+  z-index: 3;
+  height: 70vh;
+  left: 10vw;
+  animation: mush 2s;
+  bottom: 40px;
+}
+
+@keyframes mush {
+  0% {
+    top: -300px;
+  }
+  100% {
+    top: 143px;
+  }
+}
+
+.basilimg {
+  position: absolute;
+  z-index: 3;
+  height: 70vh;
+  left: 10vw;
+  animation: basil 2s;
+}
+
+@keyframes basil {
+  0% {
+    top: -300px;
+  }
+  100% {
+    top: 158.5px;
+  }
+}
+
+.pineappimg {
+  position: absolute;
+  z-index: 3;
+  height: 70vh;
+  left: 10vw;
+  animation: pineapp 2s;
+}
+
+@keyframes pineapp {
+  0% {
+    top: -300px;
+  }
+  100% {
+    top: 158.5px;
+  }
+}
+
+.choose {
+  margin-top: 17vh;
+}
+
+.choose > label {
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.check {
+  width: 16px;
+  height: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.checkoutbut {
+  background-color: #e1ad01;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-top: 30px;
+  font-weight: bolder;
+  font-size: medium;
+  border: none;
+  cursor: pointer;
+}

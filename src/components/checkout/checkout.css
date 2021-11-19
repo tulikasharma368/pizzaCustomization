@@ -1,0 +1,32 @@
+.checkoutconts {
+  display: grid;
+  grid-template-columns: 1fr 0.9fr;
+  margin-top: 50px;
+}
+
+.checkings {
+  margin-left: 160px;
+  margin-top: 50px;
+}
+
+.checkoutbuts {
+  border-radius: 20px;
+  padding: 10px 15px;
+  background-color: #e1ad01;
+  border: none;
+  margin-right: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.orderdets {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -350px;
+}
+
+.p {
+  margin: 0%;
+}

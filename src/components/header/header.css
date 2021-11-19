@@ -1,0 +1,16 @@
+.headerdiv {
+  background-color: #0d0628;
+  display: flex;
+  padding: 5px 50px;
+}
+
+.pizzalogo {
+  height: 36px;
+  margin-top: 10px;
+}
+
+.headertext {
+  text-transform: capitalize;
+  color: yellow;
+  margin-left: 10px;
+}
